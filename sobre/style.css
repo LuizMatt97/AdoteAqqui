@@ -1,0 +1,40 @@
+body{
+    background-color: rgba(255, 255, 0, 0.726);
+    
+}
+
+
+h2{
+    background-color: rgba(255, 255, 255, 0.759);
+    
+    font-family: monospace;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 200px;
+    background-image: url();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+background-image: url(../fotos/thumbs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;

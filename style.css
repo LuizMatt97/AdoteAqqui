@@ -1,7 +1,7 @@
 body{
     margin:0px;
     background-color: rgba(255, 255, 0, 0.692);
-    background-image:
+
     
 }
 
@@ -50,24 +50,50 @@ h2{
     width: 160px;
 }
 
-/* css flexbox */
+/* lista + imagens */
 
 .container{
     display: flex;
-    justify-content: 
-   
     
+    
+
 }
 .fotos{
     display: flex;
-    margin-top: 40px;
+    margin-top: 5px;
     
    
     }
 .fotos img{
     width: 80%;
-    height: 80%;
-    margin-left: 25px;
+    height: 70%;
+    margin-left: 40px;
+    width: 240px;
+}
+ 
+.final{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(112, 128, 144);
+
+
+}
+
+.final p{
+    margin-left: 30px;
+    margin-top: 20px;
+    
+}
+
+#logo{
+    font-family: monospace;
+    border: 2px solid rgba(255, 255, 0, 0.768);
+    border-radius: 30%;
+    width: 72px;
+    height: 20px;
+    background-color: slategrey;
+    color: white;
+
 }
 
 
@@ -75,12 +101,10 @@ h2{
 
 
 
-
-
-
-
+/* hover quando passar o mouse nos itens do menu */
 .menu a:hover{
-    color:yellow;
+      color: yellow;
+    
 }
 .header h1:hover{
     color:yellow;
